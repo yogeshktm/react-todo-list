@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+.item-completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+.item {
+  background: #ffcb00;
+  display: flex;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.App {
+  max-width: 400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #4e6de8;
+}
+.logo {
+  font-style: italic;
+  margin: 0;
+}
+.add-todo-form {
+  display: flex;
+}
+.add-todo-form .btn {
+  padding: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.todo-input {
+  font-size: 20px;
+  width: 100%;
+}
+.welcome-text {
+  color: #fff;
+}
